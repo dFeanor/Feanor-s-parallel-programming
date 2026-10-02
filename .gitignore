@@ -67,3 +67,17 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Visual Studio IntelliSense, cache, and project-specific settings
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+
+# Сборка MSBuild / Visual Studio
+[Xx]64/
+[Dd]ebug/
+[Rr]elease/
+*.tlog
+*.recipe
